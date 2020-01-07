@@ -223,13 +223,13 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>com.h2database</groupId>
-          <artifactId>h2</artifactId>
+          <groupId>org.postgresql</groupId>
+          <artifactId>postgresql</artifactId>
           <scope>runtime</scope>
         </dependency>
       </dependencies>
       <properties>
-        <db.name>H2</db.name>
+        <db.name>PostgreSQL</db.name>
       </properties>
     </profile>
     <profile>
